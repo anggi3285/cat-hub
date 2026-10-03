@@ -1,18 +1,26 @@
-# 🐾 Mimi's Cozy Cat Room
+# 🐾 Mimi's Couple Cat Room (Virtual Pet Tamagotchi)
 
-A real-time cozy virtual cat room web application featuring interactive pet care, sticky notes diary, and daily check-in streak.
+A real-time shared virtual cat room web application designed for couples. Co-parent Mimi the cat together with real-time care mechanics, daily couple prompts, and a sticky notes love diary.
 
-Built with **Flask**, **Flask-SocketIO**, and vanilla modern HTML5/CSS3/JavaScript.
+Built with **Python Flask**, **Flask-SocketIO**, SQLite, and modern vanilla HTML5/CSS3/JavaScript.
 
 ---
 
 ## ✨ Features
 
-- 🐱 **Interactive Virtual Pet:** Feed, pet, and put Mimi to sleep with real-time status updates (Hunger, Happiness, Energy, Level).
-- 📝 **Sticky Notes Diary:** Leave colorful notes on the shared wall with real-time sync across connected users.
-- 🔥 **Daily Check-in & Streaks:** Daily check-ins grant love points and level up Mimi's room.
-- 🪴 **Unlockable Decor:** Leveling up unlocks fairy lights, rain windows, and lofi radio.
-- ⚡ **Real-time WebSockets:** Powered by Socket.IO for seamless multi-device live synchronization.
+- 🐱 **Couple Shared Tamagotchi:** Both partners co-parent one pet with synchronized status bars (Hunger, Happiness, Energy, and Cleanliness).
+- 🐾 **Pet Evolution Stages:** Mimi grows as Love Points increase (`Kitten` ➔ `Teen Cat` ➔ `Adult Cat`).
+- 🎮 **6 Interactive Pet Actions:**
+  - 🐟 **Feed:** Boost hunger & happiness.
+  - ✋ **Pet:** Soothe and hear Mimi purr.
+  - 🛁 **Bath:** Keep Mimi clean and fresh.
+  - 🧶 **Play:** Play with yarn ball (costs energy, gives high happiness).
+  - 💤 **Sleep / Wake:** Recharges energy.
+  - 💌 **Send Hug:** Send an instant virtual hug & love notification to your partner.
+- 💬 **Daily Couple Prompts:** Lightweight daily relationship conversation questions answered together.
+- 📝 **Sticky Notes Diary:** Real-time notes wall with custom pastels.
+- 🪴 **Unlockable Room Decor:** Ambient fairy lights, rainy window view, plant pots, and cozy rugs unlocked via progression.
+- ⚡ **Real-Time WebSocket Sync:** Powered by Socket.IO for seamless instant state updates across mobile & desktop browsers.
 
 ---
 
